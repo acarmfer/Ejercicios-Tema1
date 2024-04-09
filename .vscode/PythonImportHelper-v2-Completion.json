@@ -432,6 +432,24 @@
         "documentation": {}
     },
     {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Errores y excepciones.ejercicio2",
+        "description": "Errores y excepciones.ejercicio2",
+        "peekOfCode": "lista = [1, 2, 3, 4, 5]\ntry:\n    lista[10]\nexcept IndexError:\n    print(\"Error: Index out of range. Please provide a valid index.\")",
+        "detail": "Errores y excepciones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": "Errores y excepciones.ejercicio3",
+        "description": "Errores y excepciones.ejercicio3",
+        "peekOfCode": "colores = { 'rojo':'red', 'verde':'green', 'negro':'black' }\ntry:\n    colores['blanco']\nexcept KeyError:\n    print(\"El color 'blanco' no está definido en el diccionario de colores.\")",
+        "detail": "Errores y excepciones.ejercicio3",
+        "documentation": {}
+    },
+    {
         "label": "numero_1",
         "kind": 5,
         "importPath": "Introducción Informal.ejercicio3",
