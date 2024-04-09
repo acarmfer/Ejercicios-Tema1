@@ -1,5 +1,14 @@
 [
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "usuarios",
         "kind": 5,
         "importPath": "Colecciones de datos.ejercicio1",
@@ -267,6 +276,150 @@
         "description": "Controlando el Flujo.ejercicio7",
         "peekOfCode": "lista_3 = list(interseccion)\nprint(lista_3)",
         "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "texto1",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "texto1 = \"Hola Mundo\"\ntexto2 = \"Hola Mundo\"\ntexto3 = \"Hola Mundo\"\nnumero1 = 150\nnumero2 = 7887\nnumero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "texto2",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "texto2 = \"Hola Mundo\"\ntexto3 = \"Hola Mundo\"\nnumero1 = 150\nnumero2 = 7887\nnumero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "texto3",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "texto3 = \"Hola Mundo\"\nnumero1 = 150\nnumero2 = 7887\nnumero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "numero1",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "numero1 = 150\nnumero2 = 7887\nnumero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "numero2 = 7887\nnumero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "numero3",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "numero3 = 20.02\nresultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado1",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado1 = \"{:>20}\".format(texto1)\nresultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado2",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado2 = \"{:.3}\".format(texto2)\nresultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)\nprint(resultado5)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado3",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado3 = \"{:^20.1}\".format(texto3)\nresultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)\nprint(resultado5)\nprint(resultado6)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado4",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado4 = \"{:05d}\".format(numero1)\nresultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)\nprint(resultado5)\nprint(resultado6)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado5",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado5 = \"{:7d}\".format(numero2)\nresultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)\nprint(resultado5)\nprint(resultado6)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado6",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio1",
+        "description": "Entradas y slaidas de datos.ejercicio1",
+        "peekOfCode": "resultado6 = \"{:03.3f}\".format(numero3)\nprint(resultado1)\nprint(resultado2)\nprint(resultado3)\nprint(resultado4)\nprint(resultado5)\nprint(resultado6)",
+        "detail": "Entradas y slaidas de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "filas",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio2",
+        "description": "Entradas y slaidas de datos.ejercicio2",
+        "peekOfCode": "filas = int(sys.argv[1])\ncolumnas = int(sys.argv[2])\n# Verificar si los argumentos están dentro del rango válido\nif not (1 <= filas <= 9) or not (1 <= columnas <= 9):\n    print(\"Error: Los argumentos deben ser números enteros positivos del 1 al 9.\")\n    sys.exit(1)\n# Imprimir la tabla\nfor i in range(filas):\n    for j in range(columnas):\n        print(\" * \", end='')",
+        "detail": "Entradas y slaidas de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "columnas",
+        "kind": 5,
+        "importPath": "Entradas y slaidas de datos.ejercicio2",
+        "description": "Entradas y slaidas de datos.ejercicio2",
+        "peekOfCode": "columnas = int(sys.argv[2])\n# Verificar si los argumentos están dentro del rango válido\nif not (1 <= filas <= 9) or not (1 <= columnas <= 9):\n    print(\"Error: Los argumentos deben ser números enteros positivos del 1 al 9.\")\n    sys.exit(1)\n# Imprimir la tabla\nfor i in range(filas):\n    for j in range(columnas):\n        print(\" * \", end='')\n    print()",
+        "detail": "Entradas y slaidas de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "descomponer_numero",
+        "kind": 2,
+        "importPath": "Entradas y slaidas de datos.ejercicio3",
+        "description": "Entradas y slaidas de datos.ejercicio3",
+        "peekOfCode": "def descomponer_numero(numero):\n    longitud = len(numero)\n    for i, digito in enumerate(numero):\n        valor = int(digito)\n        descomposicion = valor * 10 ** (longitud - i - 1)\n        print(f\"{descomposicion:04d}\")\ndef mostrar_instrucciones():\n    print(\"Uso: python descomposicion.py [numero_entero_positivo]\")\n    print(\"Ejemplo: python descomposicion.py 3647\")\nif __name__ == \"__main__\":",
+        "detail": "Entradas y slaidas de datos.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_instrucciones",
+        "kind": 2,
+        "importPath": "Entradas y slaidas de datos.ejercicio3",
+        "description": "Entradas y slaidas de datos.ejercicio3",
+        "peekOfCode": "def mostrar_instrucciones():\n    print(\"Uso: python descomposicion.py [numero_entero_positivo]\")\n    print(\"Ejemplo: python descomposicion.py 3647\")\nif __name__ == \"__main__\":\n    if len(sys.argv) != 2:\n        mostrar_instrucciones()\n    else:\n        numero = sys.argv[1]\n        if not numero.isdigit() or int(numero) <= 0:\n            print(\"Error: Debe ingresar un número entero positivo.\")",
+        "detail": "Entradas y slaidas de datos.ejercicio3",
         "documentation": {}
     },
     {
