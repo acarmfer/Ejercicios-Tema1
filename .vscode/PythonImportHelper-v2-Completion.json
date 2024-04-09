@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "usuarios",
         "kind": 5,
         "importPath": "Colecciones de datos.ejercicio1",
@@ -672,6 +681,141 @@
         "description": "Operadores y expresiones.ejercicio3",
         "peekOfCode": "numero_usuario = int(input(\"Introduce un número entre 1 y 9: \"))\nnumero_usuario *= 9\nnumero_magico *= numero_usuario\nprint(\"El valor final del número mágico es:\", numero_magico)",
         "detail": "Operadores y expresiones.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "area_rectangulo",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "def area_rectangulo(base, altura):\n    area = base * altura\n    return area\nbase = 15\naltura = 10\narea = area_rectangulo(base, altura)\nprint(\"El área del rectángulo es:\", area)\ndef perimetro_rectangulo(base, altura):\n    perimetro = 2 * (base + altura)\n    return perimetro",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "perimetro_rectangulo",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "def perimetro_rectangulo(base, altura):\n    perimetro = 2 * (base + altura)\n    return perimetro\nperimetro = perimetro_rectangulo(base, altura)\nprint(\"El perímetro del rectángulo es:\", perimetro)",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "base = 15\naltura = 10\narea = area_rectangulo(base, altura)\nprint(\"El área del rectángulo es:\", area)\ndef perimetro_rectangulo(base, altura):\n    perimetro = 2 * (base + altura)\n    return perimetro\nperimetro = perimetro_rectangulo(base, altura)\nprint(\"El perímetro del rectángulo es:\", perimetro)",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "altura = 10\narea = area_rectangulo(base, altura)\nprint(\"El área del rectángulo es:\", area)\ndef perimetro_rectangulo(base, altura):\n    perimetro = 2 * (base + altura)\n    return perimetro\nperimetro = perimetro_rectangulo(base, altura)\nprint(\"El perímetro del rectángulo es:\", perimetro)",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "area = area_rectangulo(base, altura)\nprint(\"El área del rectángulo es:\", area)\ndef perimetro_rectangulo(base, altura):\n    perimetro = 2 * (base + altura)\n    return perimetro\nperimetro = perimetro_rectangulo(base, altura)\nprint(\"El perímetro del rectángulo es:\", perimetro)",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "perimetro",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio1",
+        "description": "Programación de funciones.ejercicio1",
+        "peekOfCode": "perimetro = perimetro_rectangulo(base, altura)\nprint(\"El perímetro del rectángulo es:\", perimetro)",
+        "detail": "Programación de funciones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "area_circulo",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejercicio2",
+        "description": "Programación de funciones.ejercicio2",
+        "peekOfCode": "def area_circulo(radio):\n    return math.pi * radio**2\nradio = 5\narea = area_circulo(radio)\nprint(area)",
+        "detail": "Programación de funciones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "radio",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio2",
+        "description": "Programación de funciones.ejercicio2",
+        "peekOfCode": "radio = 5\narea = area_circulo(radio)\nprint(area)",
+        "detail": "Programación de funciones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejercicio2",
+        "description": "Programación de funciones.ejercicio2",
+        "peekOfCode": "area = area_circulo(radio)\nprint(area)",
+        "detail": "Programación de funciones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "relacion",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejercicio3",
+        "description": "Programación de funciones.ejercicio3",
+        "peekOfCode": "def relacion(a, b):\n    if a > b:\n        return 1\n    elif a < b:\n        return -1\n    else:\n        return 0\n# Ejemplos de uso\nprint(relacion(5, 10))  # Devuelve 1\nprint(relacion(10, 5))  # Devuelve -1",
+        "detail": "Programación de funciones.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "separar",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejerciocio6",
+        "description": "Programación de funciones.ejerciocio6",
+        "peekOfCode": "def separar(lista):\n    pares = []\n    impares = []\n    for num in lista:\n        if num % 2 == 0:\n            pares.append(num)\n        else:\n            impares.append(num)\n    pares.sort()\n    impares.sort()",
+        "detail": "Programación de funciones.ejerciocio6",
+        "documentation": {}
+    },
+    {
+        "label": "recortar",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejericicio5",
+        "description": "Programación de funciones.ejericicio5",
+        "peekOfCode": "def recortar(numero, minimo, maximo):\n    if numero < minimo:\n        return minimo\n    elif numero > maximo:\n        return maximo\n    else:\n        return numero\nresultado = recortar(15, 0, 10)\nprint(resultado)",
+        "detail": "Programación de funciones.ejericicio5",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejericicio5",
+        "description": "Programación de funciones.ejericicio5",
+        "peekOfCode": "resultado = recortar(15, 0, 10)\nprint(resultado)",
+        "detail": "Programación de funciones.ejericicio5",
+        "documentation": {}
+    },
+    {
+        "label": "intermedio",
+        "kind": 2,
+        "importPath": "Programación de funciones.ejericio4",
+        "description": "Programación de funciones.ejericio4",
+        "peekOfCode": "def intermedio(a, b):\n    return (a + b) / 2\nresultado = intermedio(-12, 24)\nprint(resultado)",
+        "detail": "Programación de funciones.ejericio4",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Programación de funciones.ejericio4",
+        "description": "Programación de funciones.ejericio4",
+        "peekOfCode": "resultado = intermedio(-12, 24)\nprint(resultado)",
+        "detail": "Programación de funciones.ejericio4",
         "documentation": {}
     }
 ]
