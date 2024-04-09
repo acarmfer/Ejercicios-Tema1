@@ -1,0 +1,524 @@
+[
+    {
+        "label": "usuarios",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio1",
+        "description": "Colecciones de datos.ejercicio1",
+        "peekOfCode": "usuarios = {\"Marta\", \"David\", \"Elvira\", \"Juan\", \"Marcos\"}\n# Crea el conjunto de administradores\nadministradores = {\"Juan\", \"Marta\"}\n# Borra al administrador Juan del conjunto de administradores\nadministradores.discard(\"Juan\")\n# Añade a Marcos como un nuevo administrador\nadministradores.add(\"Marcos\")\n# Muestra todos los usuarios por pantalla\nfor usuario in usuarios:\n    if usuario in administradores:",
+        "detail": "Colecciones de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "administradores",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio1",
+        "description": "Colecciones de datos.ejercicio1",
+        "peekOfCode": "administradores = {\"Juan\", \"Marta\"}\n# Borra al administrador Juan del conjunto de administradores\nadministradores.discard(\"Juan\")\n# Añade a Marcos como un nuevo administrador\nadministradores.add(\"Marcos\")\n# Muestra todos los usuarios por pantalla\nfor usuario in usuarios:\n    if usuario in administradores:\n        print(usuario, \"es administrador\")\n    else:",
+        "detail": "Colecciones de datos.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "Personaje",
+        "kind": 6,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "class Personaje:\n    def __init__(self, vida, ataque, defensa, alcance):\n        self.vida = vida\n        self.ataque = ataque\n        self.defensa = defensa\n        self.alcance = alcance\nclass Caballero(Personaje):\n    def __init__(self):\n        super().__init__(vida=4, ataque=2, defensa=4, alcance=2)\nclass Guerrero(Personaje):",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "Caballero",
+        "kind": 6,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "class Caballero(Personaje):\n    def __init__(self):\n        super().__init__(vida=4, ataque=2, defensa=4, alcance=2)\nclass Guerrero(Personaje):\n    def __init__(self):\n        super().__init__(vida=2, ataque=4, defensa=2, alcance=4)\nclass Arquero(Personaje):\n    def __init__(self):\n        super().__init__(vida=2, ataque=4, defensa=1, alcance=8)\ncaballero = Caballero()",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "Guerrero",
+        "kind": 6,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "class Guerrero(Personaje):\n    def __init__(self):\n        super().__init__(vida=2, ataque=4, defensa=2, alcance=4)\nclass Arquero(Personaje):\n    def __init__(self):\n        super().__init__(vida=2, ataque=4, defensa=1, alcance=8)\ncaballero = Caballero()\nguerrero = Guerrero()\narquero = Arquero()\nprint(\"Propiedades del Caballero:\")",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "Arquero",
+        "kind": 6,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "class Arquero(Personaje):\n    def __init__(self):\n        super().__init__(vida=2, ataque=4, defensa=1, alcance=8)\ncaballero = Caballero()\nguerrero = Guerrero()\narquero = Arquero()\nprint(\"Propiedades del Caballero:\")\nprint(f\"Vida: {caballero.vida}\")\nprint(f\"Ataque: {caballero.ataque}\")\nprint(f\"Defensa: {caballero.defensa}\")",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "caballero",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "caballero = Caballero()\nguerrero = Guerrero()\narquero = Arquero()\nprint(\"Propiedades del Caballero:\")\nprint(f\"Vida: {caballero.vida}\")\nprint(f\"Ataque: {caballero.ataque}\")\nprint(f\"Defensa: {caballero.defensa}\")\nprint(f\"Alcance: {caballero.alcance}\")\nprint(\"\\nPropiedades del Guerrero:\")\nprint(f\"Vida: {guerrero.vida}\")",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "guerrero",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "guerrero = Guerrero()\narquero = Arquero()\nprint(\"Propiedades del Caballero:\")\nprint(f\"Vida: {caballero.vida}\")\nprint(f\"Ataque: {caballero.ataque}\")\nprint(f\"Defensa: {caballero.defensa}\")\nprint(f\"Alcance: {caballero.alcance}\")\nprint(\"\\nPropiedades del Guerrero:\")\nprint(f\"Vida: {guerrero.vida}\")\nprint(f\"Ataque: {guerrero.ataque}\")",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "arquero",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio2",
+        "description": "Colecciones de datos.ejercicio2",
+        "peekOfCode": "arquero = Arquero()\nprint(\"Propiedades del Caballero:\")\nprint(f\"Vida: {caballero.vida}\")\nprint(f\"Ataque: {caballero.ataque}\")\nprint(f\"Defensa: {caballero.defensa}\")\nprint(f\"Alcance: {caballero.alcance}\")\nprint(\"\\nPropiedades del Guerrero:\")\nprint(f\"Vida: {guerrero.vida}\")\nprint(f\"Ataque: {guerrero.ataque}\")\nprint(f\"Defensa: {guerrero.defensa}\")",
+        "detail": "Colecciones de datos.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "tareas",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio3",
+        "description": "Colecciones de datos.ejercicio3",
+        "peekOfCode": "tareas = [\n    (3, \"Tarea C\"),\n    (1, \"Tarea A\"),\n    (2, \"Tarea B\")\n]\n# Ordenar la lista de tareas por prioridad\ntareas.sort()\n# Crear una nueva lista solo con los nombres de las tareas\ncola_tareas = [tarea[1] for tarea in tareas]\n# Imprimir la cola de tareas",
+        "detail": "Colecciones de datos.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "cola_tareas",
+        "kind": 5,
+        "importPath": "Colecciones de datos.ejercicio3",
+        "description": "Colecciones de datos.ejercicio3",
+        "peekOfCode": "cola_tareas = [tarea[1] for tarea in tareas]\n# Imprimir la cola de tareas\nprint(cola_tareas)",
+        "detail": "Colecciones de datos.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio2",
+        "description": "Controlando el Flujo.ejercicio2",
+        "peekOfCode": "numero = 0\nwhile True:\n    try:\n        numero = int(input(\"Introduce un número impar: \"))\n        if numero % 2 != 0:\n            break\n        else:\n            print(\"El número introducido no es impar. Inténtalo de nuevo.\")\n    except ValueError:\n        print(\"Error: Debes introducir un número entero.\")",
+        "detail": "Controlando el Flujo.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_sum",
+        "kind": 2,
+        "importPath": "Controlando el Flujo.ejercicio3",
+        "description": "Controlando el Flujo.ejercicio3",
+        "peekOfCode": "def calculate_sum():\n    suma = sum(range(0, 101, 2))\n    return suma\nresult = calculate_sum()\nprint(result)",
+        "detail": "Controlando el Flujo.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio3",
+        "description": "Controlando el Flujo.ejercicio3",
+        "peekOfCode": "suma = sum(range(0, 101, 2))\nprint(suma)\ndef calculate_sum():\n    suma = sum(range(0, 101, 2))\n    return suma\nresult = calculate_sum()\nprint(result)",
+        "detail": "Controlando el Flujo.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio3",
+        "description": "Controlando el Flujo.ejercicio3",
+        "peekOfCode": "result = calculate_sum()\nprint(result)",
+        "detail": "Controlando el Flujo.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad_numeros",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio4",
+        "description": "Controlando el Flujo.ejercicio4",
+        "peekOfCode": "cantidad_numeros = int(input(\"Ingrese cuántos números desea introducir: \"))\nsuma = 0\nfor i in range(cantidad_numeros):\n    numero = float(input(\"Ingrese un número: \"))\n    suma += numero\nmedia = suma / cantidad_numeros\nprint(\"La media aritmética de los números ingresados es:\", media)",
+        "detail": "Controlando el Flujo.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio4",
+        "description": "Controlando el Flujo.ejercicio4",
+        "peekOfCode": "suma = 0\nfor i in range(cantidad_numeros):\n    numero = float(input(\"Ingrese un número: \"))\n    suma += numero\nmedia = suma / cantidad_numeros\nprint(\"La media aritmética de los números ingresados es:\", media)",
+        "detail": "Controlando el Flujo.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio4",
+        "description": "Controlando el Flujo.ejercicio4",
+        "peekOfCode": "media = suma / cantidad_numeros\nprint(\"La media aritmética de los números ingresados es:\", media)",
+        "detail": "Controlando el Flujo.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio5",
+        "description": "Controlando el Flujo.ejercicio5",
+        "peekOfCode": "numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\nwhile True:\n    numero = int(input(\"Ingrese un número entero del 0 al 9: \"))\n    if numero in numeros:\n        print(\"El número se encuentra en la lista.\")\n        break\n    else:\n        print(\"El número no es válido. Inténtelo nuevamente.\")",
+        "detail": "Controlando el Flujo.ejercicio5",
+        "documentation": {}
+    },
+    {
+        "label": "lista1",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio6",
+        "description": "Controlando el Flujo.ejercicio6",
+        "peekOfCode": "lista1 = list(range(11))\nprint(lista1)\n# Todos los números del -10 al 0\nlista2 = list(range(-10, 1))\nprint(lista2)\n# Todos los números pares del 0 al 20\nlista3 = list(range(0, 21, 2))\nprint(lista3)\n# Todos los números impares entre -20 y 0\nlista4 = list(range(-19, 0, 2))",
+        "detail": "Controlando el Flujo.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "lista2",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio6",
+        "description": "Controlando el Flujo.ejercicio6",
+        "peekOfCode": "lista2 = list(range(-10, 1))\nprint(lista2)\n# Todos los números pares del 0 al 20\nlista3 = list(range(0, 21, 2))\nprint(lista3)\n# Todos los números impares entre -20 y 0\nlista4 = list(range(-19, 0, 2))\nprint(lista4)\n# Todos los números múltiples de 5 del 0 al 50\nlista5 = list(range(0, 51, 5))",
+        "detail": "Controlando el Flujo.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "lista3",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio6",
+        "description": "Controlando el Flujo.ejercicio6",
+        "peekOfCode": "lista3 = list(range(0, 21, 2))\nprint(lista3)\n# Todos los números impares entre -20 y 0\nlista4 = list(range(-19, 0, 2))\nprint(lista4)\n# Todos los números múltiples de 5 del 0 al 50\nlista5 = list(range(0, 51, 5))\nprint(lista5)",
+        "detail": "Controlando el Flujo.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "lista4",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio6",
+        "description": "Controlando el Flujo.ejercicio6",
+        "peekOfCode": "lista4 = list(range(-19, 0, 2))\nprint(lista4)\n# Todos los números múltiples de 5 del 0 al 50\nlista5 = list(range(0, 51, 5))\nprint(lista5)",
+        "detail": "Controlando el Flujo.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "lista5",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio6",
+        "description": "Controlando el Flujo.ejercicio6",
+        "peekOfCode": "lista5 = list(range(0, 51, 5))\nprint(lista5)",
+        "detail": "Controlando el Flujo.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "lista_1",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "lista_1 = [\"h\",'o','l','a',' ', 'm','u','n','d','o']\nlista_2 = [\"h\",'o','l','a',' ', 'l','u','n','a']\n# Convertir las listas en conjuntos\nset_1 = set(lista_1)\nset_2 = set(lista_2)\n# Obtener la intersección de los conjuntos\ninterseccion = set_1.intersection(set_2)\n# Convertir la intersección en una lista\nlista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "lista_2",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "lista_2 = [\"h\",'o','l','a',' ', 'l','u','n','a']\n# Convertir las listas en conjuntos\nset_1 = set(lista_1)\nset_2 = set(lista_2)\n# Obtener la intersección de los conjuntos\ninterseccion = set_1.intersection(set_2)\n# Convertir la intersección en una lista\nlista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "set_1",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "set_1 = set(lista_1)\nset_2 = set(lista_2)\n# Obtener la intersección de los conjuntos\ninterseccion = set_1.intersection(set_2)\n# Convertir la intersección en una lista\nlista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "set_2",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "set_2 = set(lista_2)\n# Obtener la intersección de los conjuntos\ninterseccion = set_1.intersection(set_2)\n# Convertir la intersección en una lista\nlista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "interseccion",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "interseccion = set_1.intersection(set_2)\n# Convertir la intersección en una lista\nlista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "lista_3",
+        "kind": 5,
+        "importPath": "Controlando el Flujo.ejercicio7",
+        "description": "Controlando el Flujo.ejercicio7",
+        "peekOfCode": "lista_3 = list(interseccion)\nprint(lista_3)",
+        "detail": "Controlando el Flujo.ejercicio7",
+        "documentation": {}
+    },
+    {
+        "label": "numero_1",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "numero_1 = 9\nnumero_2 = 3\nnumero_3 = 6\nnota_1 = 10\nnota_2 = 7\nnota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "numero_2",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "numero_2 = 3\nnumero_3 = 6\nnota_1 = 10\nnota_2 = 7\nnota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "numero_3",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "numero_3 = 6\nnota_1 = 10\nnota_2 = 7\nnota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "nota_1",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "nota_1 = 10\nnota_2 = 7\nnota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "nota_2",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "nota_2 = 7\nnota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "nota_3",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "nota_3 = 4\n# Calculating the average\nmedia = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "media = (numero_1 + numero_2 + numero_3) / 3  # Correction: the division is performed after summing the numbers\nprint(\"La nota media es\", media)\n# Calculating the final grade\nnota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "nota_final",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio3",
+        "description": "Introducción Informal.ejercicio3",
+        "peekOfCode": "nota_final = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "nota_1",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "nota_1 = 10\nnota_2 = 7\nnota_3 = 4\n# Definir los porcentajes de cada nota\nporcentaje_nota_1 = 0.15\nporcentaje_nota_2 = 0.35\nporcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "nota_2",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "nota_2 = 7\nnota_3 = 4\n# Definir los porcentajes de cada nota\nporcentaje_nota_1 = 0.15\nporcentaje_nota_2 = 0.35\nporcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "nota_3",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "nota_3 = 4\n# Definir los porcentajes de cada nota\nporcentaje_nota_1 = 0.15\nporcentaje_nota_2 = 0.35\nporcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "porcentaje_nota_1",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "porcentaje_nota_1 = 0.15\nporcentaje_nota_2 = 0.35\nporcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "porcentaje_nota_2",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "porcentaje_nota_2 = 0.35\nporcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "porcentaje_nota_3",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "porcentaje_nota_3 = 0.50\n# Calcular la nota final\nnota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "nota_final",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio4",
+        "description": "Introducción Informal.ejercicio4",
+        "peekOfCode": "nota_final = nota_1 * porcentaje_nota_1 + nota_2 * porcentaje_nota_2 + nota_3 * porcentaje_nota_3\nprint(\"La nota final es:\", nota_final)",
+        "detail": "Introducción Informal.ejercicio4",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio5",
+        "description": "Introducción Informal.ejercicio5",
+        "peekOfCode": "matriz = [ \n    [1, 1, 1, 3],\n    [2, 2, 2, 7],\n    [3, 3, 3, 9],\n    [4, 4, 4, 13]\n]\n# Recorrer cada fila de la matriz\nfor fila in matriz:\n    # Calcular la suma de los tres primeros elementos de la fila\n    suma = sum(fila[:3])",
+        "detail": "Introducción Informal.ejercicio5",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio6",
+        "description": "Introducción Informal.ejercicio6",
+        "peekOfCode": "cadena = \"zeréP nauJ,01\"\n# Voltear la cadena\ncadena_invertida = cadena[::-1]\n# Dividir la cadena invertida en nombre y nota\nnombre_invertido, nota = cadena_invertida.split(',')\n# Voltear el nombre\nnombre = nombre_invertido[::-1]\n# Formatear la cadena\ncadena_formateada = f\"{nombre.capitalize()} ha sacado un Nota de {nota.strip()}.\"\nprint(cadena_formateada)",
+        "detail": "Introducción Informal.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "cadena_invertida",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio6",
+        "description": "Introducción Informal.ejercicio6",
+        "peekOfCode": "cadena_invertida = cadena[::-1]\n# Dividir la cadena invertida en nombre y nota\nnombre_invertido, nota = cadena_invertida.split(',')\n# Voltear el nombre\nnombre = nombre_invertido[::-1]\n# Formatear la cadena\ncadena_formateada = f\"{nombre.capitalize()} ha sacado un Nota de {nota.strip()}.\"\nprint(cadena_formateada)",
+        "detail": "Introducción Informal.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio6",
+        "description": "Introducción Informal.ejercicio6",
+        "peekOfCode": "nombre = nombre_invertido[::-1]\n# Formatear la cadena\ncadena_formateada = f\"{nombre.capitalize()} ha sacado un Nota de {nota.strip()}.\"\nprint(cadena_formateada)",
+        "detail": "Introducción Informal.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "cadena_formateada",
+        "kind": 5,
+        "importPath": "Introducción Informal.ejercicio6",
+        "description": "Introducción Informal.ejercicio6",
+        "peekOfCode": "cadena_formateada = f\"{nombre.capitalize()} ha sacado un Nota de {nota.strip()}.\"\nprint(cadena_formateada)",
+        "detail": "Introducción Informal.ejercicio6",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio1",
+        "description": "Operadores y expresiones.ejercicio1",
+        "peekOfCode": "num1 = float(input(\"Enter the first number: \"))\nnum2 = float(input(\"Enter the second number: \"))\nprint(\"Menu:\")\nprint(\"1. Sum\")\nprint(\"2. Subtraction\")\nprint(\"3. Multiplication\")\noption = int(input(\"Enter your choice (1-3): \"))\nif option == 1:\n    result = num1 + num2\n    print(\"Sum:\", result)",
+        "detail": "Operadores y expresiones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio1",
+        "description": "Operadores y expresiones.ejercicio1",
+        "peekOfCode": "num2 = float(input(\"Enter the second number: \"))\nprint(\"Menu:\")\nprint(\"1. Sum\")\nprint(\"2. Subtraction\")\nprint(\"3. Multiplication\")\noption = int(input(\"Enter your choice (1-3): \"))\nif option == 1:\n    result = num1 + num2\n    print(\"Sum:\", result)\nelif option == 2:",
+        "detail": "Operadores y expresiones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "option",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio1",
+        "description": "Operadores y expresiones.ejercicio1",
+        "peekOfCode": "option = int(input(\"Enter your choice (1-3): \"))\nif option == 1:\n    result = num1 + num2\n    print(\"Sum:\", result)\nelif option == 2:\n    result = num1 - num2\n    print(\"Subtraction:\", result)\nelif option == 3:\n    result = num1 * num2\n    print(\"Multiplication:\", result)",
+        "detail": "Operadores y expresiones.ejercicio1",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio2",
+        "description": "Operadores y expresiones.ejercicio2",
+        "peekOfCode": "cadena = input(\"Introduce una cadena de texto: \")\nlongitud = len(cadena)\nresultado = longitud >= 3 and longitud < 10\nprint(resultado)",
+        "detail": "Operadores y expresiones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "longitud",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio2",
+        "description": "Operadores y expresiones.ejercicio2",
+        "peekOfCode": "longitud = len(cadena)\nresultado = longitud >= 3 and longitud < 10\nprint(resultado)",
+        "detail": "Operadores y expresiones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio2",
+        "description": "Operadores y expresiones.ejercicio2",
+        "peekOfCode": "resultado = longitud >= 3 and longitud < 10\nprint(resultado)",
+        "detail": "Operadores y expresiones.ejercicio2",
+        "documentation": {}
+    },
+    {
+        "label": "numero_magico",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio3",
+        "description": "Operadores y expresiones.ejercicio3",
+        "peekOfCode": "numero_magico = 12345679\nnumero_usuario = int(input(\"Introduce un número entre 1 y 9: \"))\nnumero_usuario *= 9\nnumero_magico *= numero_usuario\nprint(\"El valor final del número mágico es:\", numero_magico)",
+        "detail": "Operadores y expresiones.ejercicio3",
+        "documentation": {}
+    },
+    {
+        "label": "numero_usuario",
+        "kind": 5,
+        "importPath": "Operadores y expresiones.ejercicio3",
+        "description": "Operadores y expresiones.ejercicio3",
+        "peekOfCode": "numero_usuario = int(input(\"Introduce un número entre 1 y 9: \"))\nnumero_usuario *= 9\nnumero_magico *= numero_usuario\nprint(\"El valor final del número mágico es:\", numero_magico)",
+        "detail": "Operadores y expresiones.ejercicio3",
+        "documentation": {}
+    }
+]
