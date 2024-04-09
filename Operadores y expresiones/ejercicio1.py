@@ -1,12 +1,22 @@
-numero1 = float(input("Ingrese el primer número: "))
-numero2 = float(input("Ingrese el segundo número: "))
 
-son_iguales = numero1 == numero2
-son_diferentes = numero1 != numero2
-primero_es_mayor = numero1 > numero2
-segundo_es_mayor_o_igual = numero2 >= numero1
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-print("Los dos números son iguales:", son_iguales)
-print("Los dos números son diferentes:", son_diferentes)
-print("El primero es mayor que el segundo:", primero_es_mayor)
-print("El segundo es mayor o igual que el primero:", segundo_es_mayor_o_igual)
+print("Menu:")
+print("1. Sum")
+print("2. Subtraction")
+print("3. Multiplication")
+
+option = int(input("Enter your choice (1-3): "))
+
+if option == 1:
+    result = num1 + num2
+    print("Sum:", result)
+elif option == 2:
+    result = num1 - num2
+    print("Subtraction:", result)
+elif option == 3:
+    result = num1 * num2
+    print("Multiplication:", result)
+else:
+    print("Invalid option")
